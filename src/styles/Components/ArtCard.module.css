@@ -5,6 +5,7 @@
   height: 35rem;
   align-items: center;
   margin-right: 60px;
+  cursor: pointer;
 }
 
 .container img {

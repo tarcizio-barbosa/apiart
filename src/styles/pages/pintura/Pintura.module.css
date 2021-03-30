@@ -1,0 +1,82 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.artData {
+  background: url('/abraham-mignon-content.png') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  position: absolute;
+  top: 145px;
+  left: 112px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.artData h1 {
+  font-size: 3.428rem;
+  font-weight: normal;
+  text-shadow: 0px 6px 4px rgba(6, 4, 2, 0.25);
+}
+
+.artData strong {
+  font-size: 1.285rem;
+  font-family: 'Karla';
+  font-weight: bold;
+  color: var(--white);
+}
+
+.artContent {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.artContent h1 {
+  padding-left: 20px;
+  margin-top: 140px;
+  font-size: 4.571rem;
+  font-weight: 400;
+}
+
+.artContent article {
+  width: 600px;
+  margin-top: 20px;
+  padding-left: 20px;
+  font-family: 'Karla';
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.artContent p {
+  margin-top: 20px;
+  padding-left: 20px;
+  font-family: 'Karla';
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.artContent p a {
+  color: var(--yellow);
+  transition: 0.2s;
+}
+
+.artContent p a:hover {
+  filter: brightness(1.3);
+}
+
+.artContent span {
+  position: absolute;
+  bottom: 95px;
+  right: 170px;
+  font-family: 'Karla';
+  font-weight: 700;
+}
